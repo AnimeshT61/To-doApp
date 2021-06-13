@@ -1,0 +1,77 @@
+body{
+	font-family: 'Shadows Into Light', cursive;
+	background: url(https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-size: cover;
+	background-position: center;
+}	
+h1{
+	color: white;
+	background: #666699;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	font-weight: normal;
+	font-size: 30px;
+	margin:0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	background: white;
+	height: 40px;
+	color: #009900;
+	line-height:40px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1.7px;
+}
+li:nth-child(2n){
+	background: #ffffcc;
+}
+input{
+	font-size: 18px;
+	background: #ffffcc;
+	width:100%;
+	box-sizing: border-box;
+	padding: 13px 13px 13px 20px;
+	color: #009900;
+}
+input:focus{
+	
+	background: white;
+	border: 3px solid yellow;
+	outline: none;
+}
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+span{
+	height: 40px;
+	color: #992600;
+	background: yellow;
+	margin-right: 20px;
+	text-align: center;
+	width:0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+.fa-pen-nib{
+	float: right;
+	padding-top: 10px;
+}
+.selected{
+	color: #787878;
+	text-decoration: line-through;
+}
+#container{
+	background:#ffffcc;
+	width: 500px;
+	margin:100px auto;
+	 box-shadow: 7px 7px 5px black;
+
+}
